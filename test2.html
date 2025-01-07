@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.2.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="d74f2c23-3b89-4c33-a8a1-09983ac8f6af" data-root-id="p1004" style="display: contents;"></div>
+  
+    <script type="application/json" id="bb078212-df54-4b5d-b0c0-993b6c3dfb3b">
+      {"9d752a9f-f115-4b73-8351-a44dbb84f067":{"version":"3.6.2","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1005"},"y_range":{"type":"object","name":"DataRange1d","id":"p1006"},"x_scale":{"type":"object","name":"LogScale","id":"p1014"},"y_scale":{"type":"object","name":"LinearScale","id":"p1015"},"title":{"type":"object","name":"Title","id":"p1007","attributes":{"text":"Life Expectancy (2019) vs. Alcohol Consumption (2019)"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1043","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1002","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1003"},"data":{"type":"map","entries":[["x",[1.22926,5.60061,8.69842,6.80397,8.52383,3.85176,3.00583,9.89647,8.05289,3.64307,6.1811,1.69582,2.82954,8.76621,5.72525,4.34772,1.42565,0.0,3.25713,3.28108,16.98964,3.1686,4.92498,2.92752,0.13121,8.16316,0.11037,10.97589,3.73055,4.52228,2.86537,0.24048,4.21026,0.14772,11.97275,6.06472,8.09183,2.60223,7.67496,3.60021,4.54072,12.2144,0.25281,0.00516,7.45063,6.3848,11.91963,10.34273,11.30123,8.54359,1.61601,3.23678,4.39408,7.96607,10.91336,11.62513,10.47519,8.34555,8.51359,1.87287,9.15577,2.02949,0.75939,8.05902,0.19989,0.87812,11.7853,2.39054,1.87832,3.44896,10.59925,12.21997,13.28805,9.29617,1.14628,7.52215,0.75599,11.26302,6.39562,1.02054,3.62809,0.0,10.44538,2.11591,0.0,6.63315,0.0084,9.81281,3.45064,9.40172,6.94451,10.90107,8.03999,13.09042,14.32856,7.84894,3.45249,2.36873,11.7039,4.14307,7.93383,4.54779,7.11519,6.17199,1.48062,1.96779,8.07439,6.68016,3.36259,6.5962,0.37713,6.74572,9.88698,7.15801,5.00744,0.61271,0.02778,9.47123,0.0,1.87288,0.46907,1.11406,8.48211,5.45265,6.01384,7.88971,4.61578,0.40234,0.00506,5.92607,9.46831,4.95335,0.40913,0.10347,10.28089,5.71321,7.33414,5.10935,10.1012,4.91572,1.36347,10.0908,5.71942,6.76339,0.86628,1.62539,2.01463,0.01618,0.30566,11.98621,4.98389,1.42014,1.58154,0.26448,0.48891,5.34695,1.98657,4.12798,4.17178,11.5288,10.39688]],["y",[67.06857,78.84635,77.81106,84.12942,83.79854,65.36993,84.35995,84.05355,85.11829,65.00237,73.59611,67.36317,79.81407,68.28989,80.49312,63.40044,80.76191,76.14821,80.50043,79.12917,79.2589,73.16344,72.16656,72.96837,64.55505,65.45545,73.29897,84.0631,61.34304,77.61427,68.44287,74.96682,64.10055,74.14153,83.78033,79.92052,63.18209,75.21384,79.38875,77.68497,54.23892,70.09615,68.88187,75.63741,81.33572,79.08524,78.59532,78.65294,85.08698,81.60278,67.86839,68.92786,76.58638,84.89528,85.68045,81.928,81.4355,65.66406,77.9584,85.45309,84.03592,61.73365,77.07645,75.33178,74.38692,75.26434,80.43407,71.8475,71.24305,70.28452,79.5864,84.77129,81.93262,83.9655,76.62833,77.31542,62.80285,82.60069,65.61142,66.59742,63.60674,68.73493,84.39763,72.20418,83.94704,74.63403,77.3446,65.22655,64.75906,83.02058,63.57852,79.62104,79.50281,79.83988,77.76276,81.0434,83.43867,78.42261,83.47723,62.97833,72.7587,69.16389,83.56782,65.51968,79.15109,74.09107,83.86916,86.93782,70.52014,82.05693,75.60913,83.24642,83.51994,75.32427,71.99387,78.12115,68.92004,77.70683,59.22458,68.32056,62.25351,67.65157,72.74578,80.55956,80.2512,78.27786,76.86526,67.77696,70.7551,68.44906,77.66379,77.31073,70.14394,66.72388,83.50694,77.76621,69.73158,79.90692,64.49857,81.87032,72.74822,84.84017,78.86271,76.19289,71.54912,75.04476,79.1881,63.15551,78.78378,77.14537,79.16326,67.22852,77.01587,61.90173,74.31212,69.39328,56.25684,66.13831,77.92856,84.19806,85.07654]],["label",["Eritrea","Paraguay","Ukraine","Norway","Malta","Zambia","Israel","Canada","Cyprus","Liberia","Philippines","Papua New Guinea","Sri Lanka","South Africa","China","Mali","Maldives","Saudi Arabia","Ecuador","El Salvador","Romania","Honduras","India","Turkmenistan","Niger","Botswana","Indonesia","Slovenia","Chad","Kazakhstan","Kenya","Iraq","Nigeria","Egypt","Austria","Trinidad and Tobago","Eswatini","Uzbekistan","Brazil","Jamaica","Lesotho","Uganda","Comoros","Bangladesh","Peru","Bosnia and Herzegovina","Bulgaria","Montenegro","France","Croatia","Solomon Islands","Malawi","Bahamas","Italy","Spain","Poland","Slovakia","Benin","Antigua and Barbuda","Singapore","Finland","Mozambique","Malaysia","Grenada","Bhutan","Oman","Lithuania","Samoa","Rwanda","Fiji","Hungary","Germany","Czechia","Sweden","Qatar","Mauritius","Kiribati","Estonia","Congo","Madagascar","Zimbabwe","Mauritania","Portugal","Myanmar","Kuwait","Suriname","Libya","Burkina Faso","Haiti","Denmark","Equatorial Guinea","Belarus","Argentina","Latvia","Georgia","Thailand","Costa Rica","United Arab Emirates","Ireland","Guinea-Bissau","Mongolia","Ghana","Greece","Angola","Lebanon","Azerbaijan","Iceland","Japan","Ethiopia","Panama","Tonga","Chile","New Zealand","Saint Vincent and the Grenadines","Sao Tome and Principe","Algeria","Yemen","Saint Lucia","Somalia","Vanuatu","Guinea","Gambia","Cambodia","Uruguay","Cuba","Serbia","North Macedonia","Djibouti","Sudan","Namibia","Barbados","Kyrgyzstan","Senegal","Pakistan","Belgium","Belize","Gabon","Albania","Cameroon","Colombia","Nepal","Australia","Mexico","Dominican Republic","Tajikistan","Guatemala","Tunisia","Afghanistan","Jordan","Seychelles","Armenia","Togo","Bahrain","Sierra Leone","Morocco","Guyana","Central African Republic","Burundi","Nicaragua","Luxembourg","Switzerland"]]]}}},"view":{"type":"object","name":"CDSView","id":"p1044","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1045"}}},"glyph":{"type":"object","name":"Scatter","id":"p1040","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.7},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p1041","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p1042","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1013","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1026"},{"type":"object","name":"BoxZoomTool","id":"p1027","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1028","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1034","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1033","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1035"},{"type":"object","name":"HoverTool","id":"p1036","attributes":{"renderers":"auto","tooltips":[["Country","@label"],["Alcohol Consumption","@x{0.00}"],["Life Expectancy","@y{0.0}"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1021","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1022","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1023"},"axis_label":"Life Expectancy (years)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1024"}}}],"below":[{"type":"object","name":"LogAxis","id":"p1016","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p1017","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p1018"},"axis_label":"Alcohol Consumption (liters per capita)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1019"}}}],"center":[{"type":"object","name":"Grid","id":"p1020","attributes":{"axis":{"id":"p1016"}}},{"type":"object","name":"Grid","id":"p1025","attributes":{"dimension":1,"axis":{"id":"p1021"}}},{"type":"object","name":"Legend","id":"p1046","attributes":{"location":"top_left","items":[{"type":"object","name":"LegendItem","id":"p1047","attributes":{"label":{"type":"value","value":"Data Points"},"renderers":[{"id":"p1043"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('bb078212-df54-4b5d-b0c0-993b6c3dfb3b').textContent;
+              const render_items = [{"docid":"9d752a9f-f115-4b73-8351-a44dbb84f067","roots":{"p1004":"d74f2c23-3b89-4c33-a8a1-09983ac8f6af"},"root_ids":["p1004"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
